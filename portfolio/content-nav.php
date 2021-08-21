@@ -37,7 +37,8 @@
 							<i class="<?php echo $soc_icon; ?>"></i>
 						</a>
 					<?php endif; ?>
-					<?php endWhile; wp_reset_query(); ?>
+					<?php endwhile; ?> 
+					<?php wp_reset_query(); ?>
 
 					</div>
 
