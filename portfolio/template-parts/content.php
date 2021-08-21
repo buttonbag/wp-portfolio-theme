@@ -9,9 +9,11 @@
 get_header(); 
 ?>
 
-<?php if( 'post' === get_post_type() ) : ?>
-	TEST POST TYPE <a href="#" onClick="window.history.back()"> back link </a>
-	<?php endif;?>
+<?php $is_post = 'post' === get_post_type();
+	if( $is_post ) : 
+?>
+	<a onClick="window.history.back()"><i class="bi bi-arrow-left-short"></i></a>
+<?php endif;?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
@@ -67,3 +69,4 @@ get_header();
 		<?php portfolio_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
+
