@@ -1159,6 +1159,22 @@ section {
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* blog */
+.blog ul {
+	list-style: none;
+}
+.blog ul li {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+.blog ul i {
+	font-size: 16px;
+	margin-right: 5px;
+	color: #149ddd;
+	line-height: 0;
+}
+
 /* lightbox */
 .work-page {
 	max-width: 1200px;

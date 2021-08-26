@@ -1,5 +1,5 @@
 <!-- blog -->
-<section id="blog">
+<section id="blog" class="blog">
     <div class="container">
         <div class="section-title">
             <h2>Blog</h2>
