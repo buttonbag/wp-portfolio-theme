@@ -65,7 +65,7 @@
 		<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
 		<!-- nav -->
-		<?php get_template_part('content', 'nav'); ?>
+		<?php get_template_part('section', 'nav'); ?>
 
 
 

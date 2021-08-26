@@ -10,7 +10,7 @@
 
 get_header();
 ?>
-  <?php get_template_part('content', 'hero'); ?>
+  <?php get_template_part('section', 'hero'); ?>
 
 
   <main id="main">
@@ -18,22 +18,22 @@ get_header();
     
     
     <!-- About -->
-    <?php get_template_part('content', 'about'); ?>
+    <?php get_template_part('section', 'about'); ?>
     
     <!-- Skills -->
-    <?php get_template_part('content', 'skills'); ?>
+    <?php get_template_part('section', 'skills'); ?>
     
     <!-- resume -->
-    <?php get_template_part('content', 'resume'); ?>  
+    <?php get_template_part('section', 'resume'); ?>  
 
     
-    <?php get_template_part('content', 'portfolio'); ?>  
+    <?php get_template_part('section', 'portfolio'); ?>  
     
     <!-- blog -->
-    <?php get_template_part('content', 'blog'); ?>  
+    <?php get_template_part('section', 'blog'); ?>  
     
     <!-- Contact -->
-    <?php get_template_part('content', 'contact'); ?>
+    <?php get_template_part('section', 'contact'); ?>
     
   </main>
 
