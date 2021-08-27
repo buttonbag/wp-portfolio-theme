@@ -9,12 +9,6 @@
 get_header(); 
 ?>
 
-<?php $is_post = 'post' === get_post_type();
-	if( $is_post ) : 
-?>
-	<a onClick="window.history.back()"><i class="bi bi-arrow-left-short"></i></a>
-<?php endif;?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<div class="section-title">
