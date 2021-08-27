@@ -18,7 +18,7 @@
     </div> -->
 
     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-      <?php $num=1; $loop = new WP_Query( array('post_type' => 'work'/* , 'orderby' => 'post_date', 'order' => 'ASC' */) ); ?>
+      <?php $num=1; $loop = new WP_Query( array('post_type' => 'work') ); ?>
       <?php while( $loop->have_posts()) : $loop->the_post();?>
       <div class="col-lg-4 col-md-6 portfolio-item filter-app">
         <div class="portfolio-wrap">
