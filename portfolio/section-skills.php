@@ -4,68 +4,29 @@
 
     <div class="section-title">
         <h2>Skills</h2>
-        <p>I'm constantly learning, improving, and growing as a developer, designer, and as a person in general. It is impossible to know everything in tech because the industry is always expanding. Here is my best guess of where I'm at.</p>
+        <p>I'm constantly learning, improving, and growing as a developer, designer, and as a person in general I know it is impossible to know everything in tech because the industry, like the universe, is always expanding but here is my best guess of where I'm at.</p>
     </div>
 
     <div class="row skills-content">
 
-        <div class="col-lg-6" data-aos="fade-up">
-
-        <div class="progress">
-            <span class="skill">HTML <i class="val">100%</i></span>
-            <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <?php 
+            $loop   =   new WP_Query(array('post_type'=>'skills', 'orderby' => 'post_date', 'order' => 'asc')); 
+            while ( $loop->have_posts() ) : $loop->the_post();
+            $name   =   get_field('skill');
+            $level  =   get_field('level'); 
+            ?>
+            
+            <div class="col-lg-6" data-aos="fade-up">
+            <div class="progress">
+                <span class="skill"><?php echo $name; ?> <i class="val"><?php echo $level; ?></i></span>
+                <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="<?php echo $level; ?>" aria-valuemin="0" aria-valuemax="<?php echo $level; ?>">
+                </div>
+                </div>
             </div>
             </div>
-        </div>
-
-        <div class="progress">
-            <span class="skill">CSS <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-            </div>
-            </div>
-        </div>
-
-        <div class="progress">
-            <span class="skill">JavaScript <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            </div>
-            </div>
-        </div>
-
-        </div>
-
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="progress">
-            <span class="skill">PHP <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-            </div>
-            </div>
-        </div>
-
-        <div class="progress">
-            <span class="skill">WordPress/CMS <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-            </div>
-            </div>
-        </div>
-
-        <div class="progress">
-            <span class="skill">Photoshop <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-            </div>
-            </div>
-        </div>
-
-        </div>
+        <?php endwhile; wp_reset_query(); ?>
 
     </div>
-
     </div>
 </section><!-- End Skills Section -->
