@@ -4,7 +4,7 @@
 
     <div class="section-title">
         <h2>Skills</h2>
-        <p>I'm constantly learning, improving, and growing as a developer, designer, and as a person in general I know it is impossible to know everything in tech because the industry, like the universe, is always expanding but here is my best guess of where I'm at.</p>
+        <p>I'm constantly learning, improving, and growing as a developer, designer, and as a person in general. It's impossible to know everything in tech because the industry, like the universe, is constantly expanding but here is my best guess of where I'm at.</p>
     </div>
 
     <div class="row skills-content">
