@@ -10,19 +10,14 @@
 // get_header();
 ?>
 
-<?php $is_post = 'post' === get_post_type();
-	if( !$is_post ) : 
-?>
+<?php $is_post = 'post' === get_post_type();?>
 <style>
-	.site-header, nav, .mobile-nav-toggle, #wpadminbar {display: none; visibility: hidden;}
+	.site-header, nav, .mobile-nav-toggle, #wpadminbar, .site-footer {display: none; visibility: hidden;}
 </style>
-<?php endif; ?>
 
 	<div id="main" class="
-	my-5
-		<?php if (!$is_post) : ?>
-			m-3
-		<?php endif;?>">		
+	my-5 m-3
+		">		
 		<div class="container">
 			<div class="row">	
 				<div class="col-lg-12">	

@@ -14,7 +14,7 @@
             <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="0">
                 <h4><?php echo the_title();?></h4>
                 <?php echo the_excerpt(); ?>
-                <a href="<?php echo get_permalink();?>" class="btn btn-outline-secondary btn-sm">
+                <a href="<?php echo get_permalink();?>" class="btn btn-outline-secondary btn-sm blog-lightbox"  data-width="100vw" data-height="100vh">
                 Continue...</a>
             </div>
                     

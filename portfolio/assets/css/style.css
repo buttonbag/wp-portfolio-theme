@@ -1196,6 +1196,9 @@ section {
 }
 
 /* contact */
+.contact {
+	height: 100vh;
+}
 .contact .section-title,
 .contact .section-title h2::after {
 	text-align: center;

@@ -194,6 +194,9 @@
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
+  const blogLightbox = GLightbox({ /* piggy back for blog lightbox  */
+    selector: '.blog-lightbox'
+  });
 
   /**
    * Portfolio details slider

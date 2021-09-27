@@ -7,19 +7,12 @@
                     ?>" alt="" class="img-fluid rounded-circle">
 					<h1 class="text-light">
 						<div class="site-branding">
-							<?php the_custom_logo(); if ( is_front_page() && is_home() ) : ?>
+							<?php the_custom_logo(); ?>
 							<h1 class="site-title">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 									<?php bloginfo( 'name' ); ?>
 								</a>
 							</h1>
-							<?php else : ?>
-							<p class="site-title">
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-									<?php bloginfo( 'name' ); ?>
-								</a>
-							</p>
-							<?php endif ?>
 						</div><!-- .site-branding -->
 					</h1>
 
