@@ -11,7 +11,7 @@
             <?php $num=1; $loop = new WP_Query( array('post_type' => 'post'/* , 'orderby' => 'post_date', 'order' => 'ASC' */) ); ?>
             <?php while( $loop->have_posts()) : $loop->the_post();?>
             
-            <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="0">
+            <div class="col-lg-4 col-md-6 mb-5 aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="0">
                 <h4><?php echo the_title();?></h4>
                 <?php echo the_excerpt(); ?>
                 <a href="<?php echo get_permalink();?>" class="btn btn-outline-secondary btn-sm blog-lightbox"  data-width="100vw" data-height="100vh">
