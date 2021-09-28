@@ -1187,6 +1187,11 @@ section {
 	color: #149ddd;
 	line-height: 0;
 }
+.post,
+.page {
+	margin: 0 0 5em;
+	border-bottom: 1px solid #999;
+}
 
 /* lightbox */
 .work-page {
@@ -1194,6 +1199,10 @@ section {
 	margin: 3rem auto;
 	padding: 3rem;
 }
+
+/* .gslide-external { ///// change in glightbox.min.css ///////
+	max-height: 100vh !important;
+} */
 
 /* contact */
 .contact {
