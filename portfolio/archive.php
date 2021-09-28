@@ -9,8 +9,15 @@
 
 get_header();
 ?>
-
-	<main id="primary" class="site-main">
+<style>
+	.site-header, nav, .mobile-nav-toggle, #wpadminbar, .site-footer {display: none; visibility: hidden;}
+</style>
+<div id="main" class="
+	my-5 m-3
+		">		
+		<div class="container">
+			<div class="row">	
+				<div class="col-lg-12">	
 
 		<?php if ( have_posts() ) : ?>
 
