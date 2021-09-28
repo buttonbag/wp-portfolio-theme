@@ -22,7 +22,7 @@
       <?php while( $loop->have_posts()) : $loop->the_post();?>
       <div class="col-lg-4 col-md-6 portfolio-item filter-app">
         <div class="portfolio-wrap">
-          <a href="<?php echo get_permalink();?>" class="portfolio-lightbox" data-width="80vw" data-height="100vh">
+          <a href="<?php echo get_permalink();?>" class="portfolio-lightbox" data-width="100vw" data-height="100vh">
             <img src="<?php the_field('work_image'); ?>" class="img-fluid" alt="">
             <div class="portfolio-links">
               <?php echo the_title();?>
