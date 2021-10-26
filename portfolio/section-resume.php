@@ -16,7 +16,7 @@
         <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
           <h4><?php echo the_title();?></h4>
           <h5><?php the_field('years_active');?></h5>
-          <p><em><?php the_field('company_name');?>, <?php the_field('location');?></em></p>
+          <p><em><?php the_field('company_name');?> – <?php the_field('location');?></em></p>
           <?php the_field('overview');?>
           <!-- <h4>Lead Designer + Developer</h4>
           <h5>2010 - 2014</h5>
