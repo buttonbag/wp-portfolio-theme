@@ -14,7 +14,7 @@ $background_image = get_field('background_image');
   <div class="hero-container" data-aos="fade-in">
     <h1>Louie Camacho</h1>
     <p>I am <span class="typed"
-        data-typed-items="a serious designer., a serious developer., a serious freelancer., a complex individual., serious., serious seriously."></span>
+        data-typed-items="a design-minded developer., a front-end web developer., a freelancer., a collaborator., a gamer., a woodworker."></span>
     </p>
   </div>
 </section><!-- End Hero -->
