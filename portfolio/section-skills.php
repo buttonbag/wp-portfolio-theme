@@ -1,5 +1,5 @@
 <!-- ======= Skills Section ======= -->
-<section id="skills" class="skills section-bg">
+<section id="skills" class="skills section-bg p-md-5 my-md-5">
     <div class="container">
 
     <div class="section-title">

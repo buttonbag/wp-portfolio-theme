@@ -1189,8 +1189,8 @@ section {
 }
 .post,
 .page {
-	margin: 0 0 5em;
-	border-bottom: 1px solid #999;
+	margin: 0 0;
+	/* border-bottom: 1px solid #999; */
 }
 
 /* lightbox */
@@ -1207,6 +1207,8 @@ section {
 /* contact */
 .contact {
 	height: 100vh;
+	display: flex;
+	align-items: center;
 }
 .contact .section-title,
 .contact .section-title h2::after {

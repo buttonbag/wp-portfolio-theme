@@ -8,20 +8,32 @@ $about_title = get_field('about_title');
 ?>
     
 <!-- ======= About Section ======= -->
-<section id="about" class="about">
+<section id="about" class="about p-md-5 my-md-5">
   <div class="container">
 
     <div class="section-title">
       <h2><?php echo $about_title;?></h2>
-      <p>Louie Camacho works at Ogilvy Chicago (advertising, not the train station) as a designer and developer.
+      <p class="m-3 col-lg-6">
+        I’m a Chicago‑based front‑end developer most recently at DePaul University, bringing over a decade of front‑end experience. My background blends visual design (Figma, Photoshop, Illustrator) with solid front‑end fundamentals (HTML, SCSS, JavaScript, Git) and newer full‑stack capabilities gained through intensive training in React, Node, Express, and PostgreSQL.
+      </p>
+      <p class="m-3 col-lg-6">
+My work balances aesthetics, usability, and performance. At DePaul I advocated for accessibility and helped evaluate tools to surface SEO, performance, and accessibility metrics, moving our site toward more inclusive and higher‑performing experiences. In a recent team project, I helped implement authentication, authorization, and a RESTful API backed by PostgreSQL, demonstrating my ability to deliver vertical slices that span through complex data layers. In my previous career, I contributed front‑end work for Ogilvy &amp; Mather, which added exposure to my experience in agency environments.
+      </p>
+      <p class="m-3 col-lg-6">
+I’m seeking roles where I can own end‑to‑end features—designing interfaces, building the front end, and connecting back‑end services—while continuing to improve inclusivity/accessibility across products. When I’m not building websites I make cat parents happy by building custom window patios for cats (catios) it's where I practice my patience, precision, and love of making things.
+      </p>
+      
+      <a href="https://www.linkedin.com/in/louiecamacho/"><button class="btn btn-primary">Find me on LinkedIn!</button></a>
+      
+      <!-- <p>Louie Camacho works at Ogilvy Chicago (advertising, not the train station) as a designer and developer.
         Having designed (and illustrated) many logos, posters, advertisments, and web sites (including this one),
         Louie has developed a keen eye for design. Also, earning a bachelor's of arts/science didn't hurt. When he
         isn't melting faces with beautifully designed pieces, Louie uses his free time to learn new skills, practice
         his new wood working hobby, lose himself in video games, ponder about the world and think of clever ways to
-        write in the third person.</p>
+        write in the third person.</p> -->
     </div>
 
-    <div class="row">
+<!--    <div class="row">
       <div class="col-lg-8 pt-4 pt-lg-0 content">
         <h3>My Previous Roles:</h3>
         <p class="fst-italic">
@@ -62,7 +74,7 @@ $about_title = get_field('about_title');
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </section><!-- End About Section -->

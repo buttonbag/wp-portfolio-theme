@@ -1,5 +1,5 @@
 <!-- ======= Portfolio Section ======= -->
-<section id="portfolio" class="portfolio section-bg">
+<section id="portfolio" class="portfolio section-bg p-md-5 my-md-5">
   <div class="container">
 
     <div class="section-title">
